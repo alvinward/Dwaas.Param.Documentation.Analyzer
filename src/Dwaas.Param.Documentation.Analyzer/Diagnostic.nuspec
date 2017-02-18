@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Dwaas.Param.Documentation.Analyzer</id>
+    <version>1.0.0.0</version>
+    <title>Dwaas.Param.Documentation.Analyzer</title>
+    <authors>Alvin Ward</authors>
+    <owners>Alvin Ward</owners>
+    <licenseUrl>https://raw.githubusercontent.com/alvinward/Dwaas.Param.Documentation.Analyzer/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/alvinward/Dwaas.Param.Documentation.Analyzer</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/alvinward/Dwaas.Param.Documentation.Analyzer/master/Dwaas.Param.Documentation.Analyzer.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Uses a dictionary of names and descriptions to verify and correct C# &lt;param&gt; comment documentation tags.</description>
+    <releaseNotes>None.</releaseNotes>
+    <tags>Dwaas.Param.Documentation.Analyzer, analyzers, Visual Studio</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+    <developmentDependency>true</developmentDependency>
+  </metadata>
+  <!-- The convention for analyzers is to put language agnostic dlls in analyzers\portable50 and language specific analyzers in either analyzers\portable50\cs or analyzers\portable50\vb -->
+  <files>
+    <file src="*.dll" target="analyzers\dotnet\cs" exclude="**\Microsoft.CodeAnalysis.*;**\System.Collections.Immutable.*;**\System.Reflection.Metadata.*;**\System.Composition.*" />
+    <file src="content\Dwaas.Param.Documentation.Analyzer.json" target="content" />
+    <file src="tools\*.ps1" target="tools\" />
+  </files>
+</package>
