@@ -4,9 +4,17 @@
 
 Uses a dictionary of names and descriptions to verify and correct C# &lt;param> comment documentation tags.
 
+## Installation
+
+The Param Analyzer is available as a [NuGet package](https://www.nuget.org/packages/Dwaas.Param.Documentation.Analyzer/). You can install it using the NuGet Package Console window:
+
+```
+PM> Install-Package Dwaas.Param.Documentation.Analyzer
+```
+
 ## Configuration
 
-Add a file named *Dwaas.Param.Documentation.Analyzer.json* to the project and set it's *BuildAction* to *AdditionalFiles* in the properties window.
+Add a file named *Dwaas.Param.Documentation.Analyzer.json* to the project (if it has not been added automatically) and set it's *BuildAction* to *AdditionalFiles* in the properties window.
 
 The file should contain a list of the parameter or property names and their descriptions, for example:
 
