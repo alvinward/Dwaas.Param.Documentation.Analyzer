@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/dqhgm5oc0hy7852h/branch/master?svg=true)](https://ci.appveyor.com/project/alvinward/dwaas-param-documentation-analyzer/branch/master)
+
 # Dwaas.Param.Documentation.Analyzer
 
 Uses a dictionary of names and descriptions to verify and correct C# &lt;param> comment documentation tags.

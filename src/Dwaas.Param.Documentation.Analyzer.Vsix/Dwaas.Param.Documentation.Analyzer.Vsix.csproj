@@ -16,7 +16,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Dwaas.Param.Documentation.Analyzer.Vsix</RootNamespace>
-    <AssemblyName>Dwaas.Param.Documentation.Analyzer.Vsix</AssemblyName>
+    <AssemblyName>Dwaas.Param.Documentation.Analyzer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
