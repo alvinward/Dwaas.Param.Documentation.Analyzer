@@ -12,6 +12,8 @@ The Param Analyzer is available as a [NuGet package](https://www.nuget.org/packa
 PM> Install-Package Dwaas.Param.Documentation.Analyzer
 ```
 
+Or [download](https://ci.appveyor.com/project/alvinward/dwaas-param-documentation-analyzer/branch/master/artifacts) and install the Visual Studio Extension.
+
 ## Configuration
 
 Add a file named *Dwaas.Param.Documentation.Analyzer.json* to the project (if it has not been added automatically) and set it's *BuildAction* to *AdditionalFiles* in the properties window.
